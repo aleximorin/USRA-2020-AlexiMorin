@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.8)  14 MAY 2020 10:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.8)  14 MAY 2020 13:12
 entering extended mode
 **./Report_Alexi_Morin.tex
 (Report_Alexi_Morin.tex
@@ -507,23 +507,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
 {C:/Users/Adalia Rose/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2] [3]
-<../inversion/hypsometric_curves/Job_hypso.png, id=60, 462.528pt x 346.896pt>
-File: ../inversion/hypsometric_curves/Job_hypso.png Graphic file (type png)
-<use ../inversion/hypsometric_curves/Job_hypso.png>
-Package pdftex.def Info: ../inversion/hypsometric_curves/Job_hypso.png  used on
- input line 94.
+<../hypsometric_curves/Job_hypso.png, id=60, 462.528pt x 346.896pt>
+File: ../hypsometric_curves/Job_hypso.png Graphic file (type png)
+<use ../hypsometric_curves/Job_hypso.png>
+Package pdftex.def Info: ../hypsometric_curves/Job_hypso.png  used on input lin
+e 94.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../inversion/hypsometric_curves/Little kluane_hypso.png, id=62, 462.528pt x 34
-6.896pt>
-File: ../inversion/hypsometric_curves/Little kluane_hypso.png Graphic file (typ
-e png)
-<use ../inversion/hypsometric_curves/Little kluane_hypso.png>
-Package pdftex.def Info: ../inversion/hypsometric_curves/Little kluane_hypso.pn
-g  used on input line 101.
+<../hypsometric_curves/Little kluane_hypso.png, id=62, 462.528pt x 346.896pt>
+File: ../hypsometric_curves/Little kluane_hypso.png Graphic file (type png)
+<use ../hypsometric_curves/Little kluane_hypso.png>
+Package pdftex.def Info: ../hypsometric_curves/Little kluane_hypso.png  used on
+ input line 101.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -538,22 +536,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--119
 
  []
 
-[5 <../inversion/hypsometric_curves/Job_hypso.png> <../inversion/hypsometric_cu
-rves/Little kluane_hypso.png>]
+[5 <../hypsometric_curves/Job_hypso.png> <../hypsometric_curves/Little kluane_h
+ypso.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 145--149
 
  []
 
 [6]
-<../inversion/comparison_images/NorthGlacier_Farinotti_error.png, id=92, 650.43
-pt x 433.62pt>
-File: ../inversion/comparison_images/NorthGlacier_Farinotti_error.png Graphic f
-ile (type png)
-<use ../inversion/comparison_images/NorthGlacier_Farinotti_error.png>
-Package pdftex.def Info: ../inversion/comparison_images/NorthGlacier_Farinotti_
-error.png  used on input line 160.
+<../comparison_images/NorthGlacier_Farinotti_error.png, id=92, 650.43pt x 433.6
+2pt>
+File: ../comparison_images/NorthGlacier_Farinotti_error.png Graphic file (type 
+png)
+<use ../comparison_images/NorthGlacier_Farinotti_error.png>
+Package pdftex.def Info: ../comparison_images/NorthGlacier_Farinotti_error.png 
+ used on input line 160.
 (pdftex.def)             Requested size: 325.2142pt x 216.80946pt.
- [7 <../inversion/comparison_images/NorthGlacier_Farinotti_error.png>]
+ [7 <../comparison_images/NorthGlacier_Farinotti_error.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
@@ -581,7 +579,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
  ) 
 Here is how much of TeX's memory you used:
  8113 strings out of 480930
- 122553 string characters out of 2896946
+ 122423 string characters out of 2896946
  427564 words of memory out of 3000000
  23790 multiletter control sequences out of 15000+200000
  537772 words of font info for 43 fonts, out of 3000000 for 9000
