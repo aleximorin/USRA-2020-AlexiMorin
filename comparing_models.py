@@ -258,13 +258,13 @@ def compare_glacier_to_model(glacier, model, shp_path, bedrock_path, true_bed_ra
     dem_im[dem_im <= 0] = np.NaN
 
     # Computes the modelled thickness and the the true thickness
-    modelled_thickness = dem_im - modelled_bedrock_im
-    true_thickness = dem_im - true_bed_im
+    modelled_thickness_im = dem_im - modelled_bedrock_im
+    true_thickness_im = dem_im - true_bed_im
 
     # Computes the error
-    error = true_thickness - modelled_thickness
+    error = true_thickness_im - modelled_thickness_im
     if percentage:
-        error = 100 * error / true_thickness
+        error = 100 * error / true_thickness_im
 
     #  The output filename of the error
     output_fn = f'error_tifs\\{glacier}_{model}_error.tif'
@@ -278,7 +278,7 @@ def compare_glacier_to_model(glacier, model, shp_path, bedrock_path, true_bed_ra
     fig.suptitle(f'{glacier} by {model}')
 
     # Ice thickness plot
-    im0 = axs[0].imshow(modelled_bedrock_im[0])
+    im0 = axs[0].imshow(modelled_thickness_im[0])
     axs[0].set_title('Modelled ice thickness (m)')
 
     # Colorbar 1
