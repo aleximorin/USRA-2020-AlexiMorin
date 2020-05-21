@@ -2,13 +2,34 @@ import numpy as np
 import pandas as pd
 import gdal
 
+"""transform, width, height = rasterio.warp.calculate_default_transform(dem_ras.crs, projection,
+                                                                                dem_ras.width, dem_ras.height,
+                                                                                *dem_ras.bounds)
+           data = dem_ras.read()
+           z = np.zeros_like(data)
+           for i, band in enumerate(data, 1):
+               rasterio.warp.reproject(band, z[i], src_transform=dem_ras.transform,
+                                       src_crs=dem_ras.crs, dst_transform=transform,
+                                       dst_crs=projection, resamplig=rasterio.warp.Resampling.nearest)
 
+           mask = rasterio.features.rasterize([geometry, 0], data.shape, transform=transform,
+                                              fill=1, all_touched=True, dtype=np.uint8)
+           masked_data = np.ma.array(data=z, mask=mask.astype(bool))
+
+           dem_im, dem_out = rasterio.mask.mask(dem_ras, geometry, crop=True)
+           meta = dem_ras.meta
+           meta.update({'driver': 'GTiff',
+                        'height': dem_im.shape[1],
+                        'width': dem_im.shape[2],
+                        'transform': dem_out})"""
 
 def ddmm_to_decimal(latitude, longitude):
     # Converts latitude as ddmm.mmmm and longitude as dddmm.mmmm to decimal degrees
 
+    longitude = np.abs(longitude)
+
     lat_degree = (np.floor(latitude / 100)).astype(int)
-    long_degree = (np.floor(longitude / 100)).astype(int)
+    long_degree = (np.floor(longitude) / 100).astype(int)
 
     lat_mm_mmm = latitude % 100
     long_mm_mmm = longitude % 100
@@ -21,7 +42,7 @@ def ddmm_to_decimal(latitude, longitude):
 def edit_csv_long_lat(csv_path, csv_out, lat_field, long_field, delimiter = ','):
     file = pd.read_csv(csv_path, delimiter=delimiter)
     file[lat_field], file[long_field] = ddmm_to_decimal(file[lat_field], file[long_field])
-    file.to_csv(csv_out)
+    file.to_csv(csv_out, index=False)
 
 def configures_itmix_txt_to_csv(txt_file):  #Obsolete
     with open(txt_file, 'r') as txt:
@@ -52,3 +73,8 @@ def interpolates_csv_to_raster(path, csv, projection, extension = '.csv'):  # Is
 
     output = gdal.Grid(out_tif, vrt_fn)
     return output
+lat = 'Latitude_ddmm.mmmm'
+long = 'Longitude_dddmm.mmmm'
+
+path = r'C:\Users\Adalia Rose\Desktop\2scool4cool\e2020\data\kluane\surging_glacier\2019_radar\lk_radar_points.csv'
+edit_csv_long_lat(path, path.replace('.csv', '_decimal.csv'), lat, long, ';')

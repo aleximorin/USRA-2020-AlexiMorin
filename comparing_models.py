@@ -190,16 +190,21 @@ def csv_ez_read(csv_path):
     ez_view.to_csv(csv_path.replace('.csv', '_ez_view.csv'), index=None)
 
 
-def burns_csv_to_raster(csv_path, shp_path, ras_extent_path, output_fn=None, crop=True):
+def burns_csv_to_raster(csv_path, projection, geometry, ras_extent_path, output_fn=None, crop=True):
+
+    # Transforms a x, y, z csv to a raster file
     # Imports the shapefile, its projection and its geometry
     # The shapefile will be used to mask the raster data
-    with fiona.open(shp_path, 'r') as shp:
-        geometry = [feature['geometry'] for feature in shp]
-        projection = shp.crs
+
+    datatype = 'float32'
 
     # Converts the csv to a geoDataFrame, which is basically a point shapefile
+    try:
+        df = pd.read_csv(csv_path, delim_whitespace=True, skiprows=13)
+    except Exception as e:
+        df = csv_path
+
     # Assigns it the same projection as the shapefile
-    df = pd.read_csv(csv_path, delim_whitespace=True, skiprows=13)
     gdf = gpd.GeoDataFrame(df, crs=projection,
                            geometry=[Point(xy) for xy in zip(df.iloc[:, 0], df.iloc[:, 1])])
 
@@ -212,30 +217,29 @@ def burns_csv_to_raster(csv_path, shp_path, ras_extent_path, output_fn=None, cro
                          "width": ras_extent_im.shape[2],
                          "transform": out_transform,
                          "crs": projection,
-                         'dtype': 'float32'})
+                         'dtype': datatype})
 
     # Gives the output file an appropriate name if none is given
     if output_fn is None:
         dot_index = csv_path.rfind('.')
-        output_fn = csv_path.replace(csv_path[dot_index:], '_raster.tif')
+        output_fn = csv_path.replace(csv_path[dot_index:],  '_raster.tif')
 
     # Burns the values onto a raster
     with rasterio.open(output_fn, 'w+', **metadata) as out:
         out_arr = out.read(1)
         shape = ((geom, value) for geom, value in zip(gdf.geometry, gdf.iloc[:, 2]))
-        burned = features.rasterize(shapes=shape, fill=0, out=out_arr.astype('float32'), transform=out.transform)
+        burned = features.rasterize(shapes=shape, fill=0, out=out_arr.astype(datatype), transform=out.transform)
         out.write_band(1, burned)
         return out
 
 
-def compare_glacier_to_model(glacier, model, shp_path, bedrock_path, true_bed_raster, dem_raster,
+def compare_glacier_to_model(glacier, model, geometry, bedrock_path, true_bed_raster, dem_raster,
                              img_folder, crop=True, show_figures=False, percentage=True):
     #  Function comparing a glacier to its ITMIX modelled data
     #  Lots of help from internet, especially from this link:
     #  https://gis.stackexchange.com/questions/151339/rasterize-a-shapefile-with-geopandas-or-fiona-python
 
-    with fiona.open(shp_path, 'r') as shp:
-        geometry = [feature['geometry'] for feature in shp]
+    datatype = 'float32'
 
     # Opens the modelled_bedrock.asv and crops it
     with rasterio.open(bedrock_path) as modelled_bedrock_ras:
@@ -244,17 +248,20 @@ def compare_glacier_to_model(glacier, model, shp_path, bedrock_path, true_bed_ra
         out_meta.update({'driver': 'GTiff',
                          'height': modelled_bedrock_im.shape[1],
                          'width': modelled_bedrock_im.shape[2],
-                         'transform': out_transform})
+                         'transform': out_transform,
+                         'dtype': datatype})
 
     # Change the nodata values from the bedrock to nan
+    modelled_bedrock_im = modelled_bedrock_im.astype(datatype)
     modelled_bedrock_im[modelled_bedrock_im <= 0] = np.NaN
 
     # Reads the values from the true bed raster as an array and change the nodata values to nan
-    true_bed_im = true_bed_raster.read(1)
+    true_bed_im = true_bed_raster.read(1).astype(datatype)
     true_bed_im[true_bed_im <= 0] = np.NaN
 
     # Crops the DEM and change the nodata values to nan
     dem_im, out_transform = rasterio.mask.mask(dem_raster, geometry, crop=crop)
+    dem_im = dem_im.astype(datatype)
     dem_im[dem_im <= 0] = np.NaN
 
     # Computes the modelled thickness and the the true thickness
@@ -296,9 +303,10 @@ def compare_glacier_to_model(glacier, model, shp_path, bedrock_path, true_bed_ra
     fig.colorbar(im1, cax=cax, orientation='horizontal')
 
     # Plotting shapefiles? doesn't work
-    patches = [PolygonPatch(feature, edgecolor='red') for feature in geometry]
     for i in range(len(axs)):
-        axs[i].add_collection(mpl.collections.PatchCollection(patches, match_original=True))
+        for feature in geometry:
+            axs[i].add_patch(PolygonPatch(feature, ec='blue'))
+
     fig.set_size_inches(9, 6)
     fig.savefig(f'{img_folder}\\{glacier}_{model}_error.png')
 
@@ -319,10 +327,21 @@ def df_dict_to_excel(df_dict, path):
     # Outputs a dictionary of DataFrame to an excel file with the DataFrame's key as the sheet name
     # https://stackoverflow.com/questions/51696940/how-to-write-a-dict-of-dataframes-to-one-excel-file-in-pandas-key-is-sheet-name
     writer = pd.ExcelWriter(path, engine='xlsxwriter')
+
     for tab_name, df in df_dict.items():
         df.to_excel(writer, sheet_name=tab_name)
-    writer.save()
 
+    saved = False
+    extension = path[path.rfind('.'):]
+    xl_file = path[:-len(extension)]
+    i = 1
+    while not saved:
+        try:
+            writer.save()
+            saved = True
+        except PermissionError:
+            print(f'{path} not accesible.')
+            print(f'Saving at {xl_file}')
 
 if __name__ is '__main__':
     r"""ng_glathida_path = r'C:\Users\Adalia Rose\Desktop\2scool4cool\e2020\data\Thickness_Alaska\RGI60-01.16835_thickness.tif'
