@@ -1,0 +1,177 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Bahr%
+, Pfeffer%
+\BCBL {}\ \BBA {} Kaser%
+}{%
+Bahr%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+bahr2015review}
+\APACinsertmetastar {%
+bahr2015review}%
+\begin{APACrefauthors}%
+Bahr, D\BPBI B.%
+, Pfeffer, W\BPBI T.%
+\BCBL {}\ \BBA {} Kaser, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A review of volume-area scaling of glaciers} {A review
+  of volume-area scaling of glaciers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Reviews of Geophysics}{53}{1}{95--140}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Farinotti%
+\ \protect \BOthers {.}}{%
+Farinotti%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+farinotti2016accurate}
+\APACinsertmetastar {%
+farinotti2016accurate}%
+\begin{APACrefauthors}%
+Farinotti, D.%
+, Brinkerhoff, D.%
+, Clarke, G\BPBI K.%
+, F{\"u}rst, J\BPBI J.%
+, Frey, H.%
+, Gantayat, P.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {How accurate are estimates of glacier ice thickness?
+  Results from ITMIX, the Ice Thickness Models Intercomparison eXperiment} {How
+  accurate are estimates of glacier ice thickness? results from itmix, the ice
+  thickness models intercomparison experiment}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Cryosphere Discussions}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Farinotti%
+\ \protect \BOthers {.}}{%
+Farinotti%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+farinotti2019consensus}
+\APACinsertmetastar {%
+farinotti2019consensus}%
+\begin{APACrefauthors}%
+Farinotti, D.%
+, Huss, M.%
+, F{\"u}rst, J\BPBI J.%
+, Landmann, J.%
+, Machguth, H.%
+, Maussion, F.%
+\BCBL {}\ \BBA {} Pandit, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A consensus estimate for the ice thickness distribution
+  of all glaciers on Earth} {A consensus estimate for the ice thickness
+  distribution of all glaciers on earth}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature Geoscience}{12}{3}{168--173}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Huss%
+\ \BBA {} Farinotti%
+}{%
+Huss%
+\ \BBA {} Farinotti%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+huss2012distributed}
+\APACinsertmetastar {%
+huss2012distributed}%
+\begin{APACrefauthors}%
+Huss, M.%
+\BCBT {}\ \BBA {} Farinotti, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Distributed ice thickness and volume of all glaciers
+  around the globe} {Distributed ice thickness and volume of all glaciers
+  around the globe}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Geophysical Research: Earth
+  Surface}{117}{F4}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Reyes%
+\ \BBA {} Clague%
+}{%
+Reyes%
+\ \BBA {} Clague%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+reyes2004stratigraphic}
+\APACinsertmetastar {%
+reyes2004stratigraphic}%
+\begin{APACrefauthors}%
+Reyes, A\BPBI V.%
+\BCBT {}\ \BBA {} Clague, J\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Stratigraphic evidence for multiple Holocene advances of
+  Lillooet Glacier, southern Coast mountains, British Columbia} {Stratigraphic
+  evidence for multiple holocene advances of lillooet glacier, southern coast
+  mountains, british columbia}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Canadian Journal of Earth Sciences}{41}{8}{903--918}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Roberti%
+\ \protect \BOthers {.}}{%
+Roberti%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+roberti2018landslides}
+\APACinsertmetastar {%
+roberti2018landslides}%
+\begin{APACrefauthors}%
+Roberti, G.%
+, Ward, B.%
+, van Wyk~de Vries, B.%
+, Falorni, G.%
+, Menounos, B.%
+, Friele, P.%
+\BDBL {}others%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Landslides and glacier retreat at Mt. Meager volcano:
+  hazard and risk challenges} {Landslides and glacier retreat at mt. meager
+  volcano: hazard and risk challenges}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{GeoHazards 7, Canmore 2018}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
