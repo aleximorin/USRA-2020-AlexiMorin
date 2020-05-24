@@ -6,6 +6,7 @@
 \usepackage{dingbat}
 \usepackage{subcaption}
 \usepackage{wrapfig}
+\usepackage{placeins}
 
 \begin{document}
 \section{Introduction}
@@ -54,7 +55,7 @@ Four main types of models were outlined throughout the experiment, each needing 
 	\item Other approaches
 		\begin{itemize}
 			\item GCneuralnet(Clarke et al., 2009) is a model based no artificial neural networks. It is based on the assumption that the bedrock topography resembles nearby unglaciarized valleys.
-			\item Brinkerhoff (Brinkerhoff et al., 2016) is based on the Bayesian inference. The idea is that the bed elevation and the ice flux divergence can be described as Gaussian random fields with known covariance but unknown mean.
+			\item Brinkerhoff (Brinkerhoff et al., 2016) is based on Bayesian inference. The idea is that the bed elevation and the ice flux divergence can be described as Gaussian random fields with known covariance but unknown mean.
 		\end{itemize}		
 \end{itemize}
 The various needs of every type of the main categories of models was captured in table \ref{tab:itmix_models}. To note is that the table indicates the needs of the majority in the models presented, some use more data than the others in the same category.
@@ -104,7 +105,7 @@ Fumaroles emerged from the surface of the glacier in 2016. \citeauthor{roberti20
 The research covered by Tryggvi Unnsteinsson aims to understand the dynamical interaction between the glaciological and volcanic systems upon Mt. Meager and the glaciological conditions required for fumarole emergence.
 \subsubsection{Data available} % Should we move these subsection into another section after the model section?
 The data available for this study site consists of a 1 $m^2$ resolution LIDAR from (?), a glacier outline from Randolph Glacier Inventory and ice thickness measurements from a ground penetrating radar campaign held by Dr. Flowers and her team in September 2018. The ice thickness measurements only cover a small portion of the glacier and the point data can be seen on figure \ref{fig:job_dem}.\\
-
+\FloatBarrier
 \subsection{Little Kluane glacier}
 \begin{figure}[h!]
 \centering
@@ -116,7 +117,7 @@ The little Kluane glacier is the nickname given to a small surging glacier part 
 \subsubsection{Data available}
 The data available for this study site consists of a DEM we need to find (potentially DEM Arctic v2?)other than the one used by the global thickness model, a glacier outline from Nolan (2020) and ice thickness measurements from a ground penetrating radar campaign held by Dr. Flowers and her team in (??). The ice thickness measurements only cover a small portion of the glacier and the point data can be seen on figure \ref{fig:lk_dem}.
 \section{The global consensus estimate: assessing the error}
-Following \textit{ITMIX}, \citeauthor{farinotti2019consensus} bettered the earlier global estimate from \citeauthor{huss2012distributed} \citeyear{huss2012distributed}. In this paper, they use findings from \textit{ITMIX} to infer ice thickness of all the glaciers around the globe. using five different models and weighting each of their results to minimize the error. The computed models are freely available online and this raises a question: if we already have an estimate of ice thickness for our study sites, why should we compute one ourselves?\\ The idea is that having real world, ice thickness measurement data can help us better the approximation made by \citeauthor{farinotti2019consensus} \citeyear{farinotti2019consensus}. First, we need to assess the error in those models by comparing it to our point data.
+Following \textit{ITMIX}, \citeauthor{farinotti2019consensus} bettered the earlier global estimate from \citeauthor{huss2012distributed} \citeyear{huss2012distributed}. In this paper, they use findings from \textit{ITMIX} to infer ice thickness of all the glaciers around the globe. using five different models and weighting each of their results to minimize the error. The computed models are freely available online and this raises a question: if we already have an estimate of ice thickness for our study sites, why should we compute one ourselves?\\ Having real world ice thickness measurement data can help us better the approximation made by \citeauthor{farinotti2019consensus} \citeyear{farinotti2019consensus}. First, we need to assess the error in those models by comparing it to our point data.
 \subsection{Job glacier}
 % Figure needs some tinkerink, would be great to have independant maps instead of together finally eh
 The ice thickness model from \citeauthor{farinotti2019consensus} \citeyear{farinotti2019consensus} can be seen in figure \ref{fig:job_thickness}.
@@ -141,7 +142,7 @@ A higher discrepancy seem to be located upon the margin of the glaciers, modelli
 \caption{The error in Job glacier's model}
 \label{fig:error_job_thickness}
 \end{figure}
-The positive and negative error in the western and eastern margin respectively seems to be because the model doesn't take into account the glacier's flow direction. There might be thicker ice in the eastern region because of the curved nature of the flow line (??). It is also possible to compute the relative distributed error \[\delta h = \frac{h' - h}{h} = \frac{\Delta h}{h}\]
+The positive and negative error in the western and eastern margin respectively seems to be because the model doesn't take into account the glacier's flow direction. There might be thicker ice in the eastern region because of the curved nature of the flow line (??). It is also possible to compute the relative distributed error: \[\delta h = \frac{h' - h}{h} = \frac{\Delta h}{h}\]
 This relative error is shown in a similar manner on figure \ref{fig:rel_error_job_thickness}. The error is shown in percentage for convenience.
 \begin{figure}[h!]
 \centering
@@ -173,7 +174,6 @@ Little Kluane being a bigger glacier than Job, the absolute thickness is much gr
 \caption{The modelled thickness of Little Kluane glacier}
 \label{fig:cropped_lk_thickness}
 \end{figure}
-\\
 It is hard to discern any  pattern in this case, but the error is positive overall. From the single cross section line, is is possible to deduce that the ice is probably much thinner at the extremities. The computed error and relative error are shown on figures \ref{fig:error_lk_thickness} and \ref{fig:rel_error_lk_thickness}.
 \begin{figure}[h!]
 \centering
@@ -199,43 +199,54 @@ Similarly to Job glacier, the corresponding measured and modelled ice thickness 
 \label{fig:xy_lk_thickness}
 \end{figure}
 \subsection{Error data}
-The errors between the modelled and observed data from Job and Little Kluane was computed and their main statistics is shown in table \ref{tab:error_table}. Box plots of both the error and the relative error also have been produced and are visible at figure \ref{fig:job_lk_boxplot} and \ref{fig:job_lk_rel_boxplot}.
+The errors between the modelled and observed data from Job and Little Kluane was computed and their main statistics is shown in table \ref{tab:error_table}. Box plots of both  the error and the relative error also have been produced and are visible in figure \ref{fig:job_lk_boxplot}.
 
 % Load data from the error csv %
 \DTLloaddb{errdata}{../job_kluane_maps/data.csv}
-\begin{table}
+
+\begin{table}[h!]
+\centering
 \small
 \caption{Error data from Job and Little Kluane}
 \label{tab:error_table}
-\centering
-\begin{tabular}{|c|c|c|c|c|c|}
+\noindent\makebox[\textwidth]{
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
 \hline
 % Header %
-\textbf{Glacier} & \textbf{Mean error} & \textbf{Std} & \textbf{Median} & \textbf{Absolute mean} & $\boldsymbol{MSE}$
+\textbf{Glacier} & \textbf{Mean} & \textbf{Std} & \textbf{Median} & \textbf{Max} & \textbf{Absolute mean} & $\boldsymbol{MSE}$
 % Iterated csv data %
 \DTLforeach{errdata}
-		{\glacier=Glacier,\mean=Mean,\std=Std,\med=Median,\abs=Absolute mean,\mse=Mean square}
-{\\ \hline \glacier & \mean & \std & \med & \abs & \mse}
+		{\glacier=Glacier,\mean=Mean,\std=Std,\med=Median,\abs=Absolute mean,\mse=Mean square, \max=Maximum}
+{\\ \hline \glacier & \mean & \std & \med & \max & \abs & \mse}
 \\ \hline
 \end{tabular}
+}
+\footnotesize $MSE$ is the mean square error, computed as $\frac{1}{n}\sum(\Delta h)^2$, where $n$ is the number of cells.
 \end{table}
-
 % Load box plots %
 \begin{figure}[h!]
-\begin{subfigure}{0.5\textwidth}
+\makebox[\textwidth][c]{
+\begin{subfigure}{0.7\textwidth}
 \includegraphics[width=\linewidth]{../job_kluane_maps/boxplots.png}
 \caption{Error}
 \label{fig:box_plot_error}
 \end{subfigure}
-\begin{subfigure}{0.5\textwidth}
+\begin{subfigure}{0.7\textwidth}
 \includegraphics[width=\linewidth]{../job_kluane_maps/rel_boxplots.png}
 \caption{Relative error}
 \label{fig:box_plot_rel_error}
 \end{subfigure}
+}
 \caption{Error box plots for Job and Little Kluane glaciers}
 \label{fig:job_lk_boxplot}
 \end{figure}
+\FloatBarrier
 
+This confirms us that, for Job glacier's case, the mean error is negative meaning that the ice thickness is mostly underestimated. The percentage standard deviation is however significant (In what way? How is that an absolute metric?) We do see however a few outliers on the box plot, showing that in some areas the thickness is greatly overestimated, up to 80\%. This error is located in the western margin of the glacier which is the concave section of the flow line.
+
+For Little Kluane glacier, the error is strictly positive, meaning that the ice thickness is over estimated for every point measured. The model also shows less variation than in Job's case with a smaller percentage standard deviation.
+
+These findings validate the need to better the model with the ice thickness measurements.
 
 \bibliographystyle{apacite}
 \bibliography{References}
