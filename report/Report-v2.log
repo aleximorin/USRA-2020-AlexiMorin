@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.8)  21 MAY 2020 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.8)  22 MAY 2020 13:46
 entering extended mode
 **./Report-v2.tex
 (Report-v2.tex
@@ -463,6 +463,10 @@ fig.sty"
 \WF@everypar=\toks44
 Package: wrapfig 2003/01/31  v 3.6
 )
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/placeins\pla
+ceins.sty"
+Package: placeins 2005/04/18  v 2.2
+)
 ("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3
 backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
@@ -476,22 +480,22 @@ LaTeX Warning: Unused global option(s):
 (Report-v2.aux)
 \openout1 = `Report-v2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 ("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\
 supp-pdf.mkii"
@@ -515,7 +519,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
 \AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 10.
+Package hyperref Info: Link coloring OFF on input line 11.
 
 ("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nam
 eref.sty"
@@ -531,9 +535,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count310
 )
-LaTeX Info: Redefining \ref on input line 10.
-LaTeX Info: Redefining \pageref on input line 10.
-LaTeX Info: Redefining \nameref on input line 10.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
  (Report-v2.out) (Report-v2.out)
 \@outlinefile=\write4
 \openout4 = `Report-v2.out'.
@@ -550,12 +554,12 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
@@ -564,7 +568,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 {C:/Users/Adalia Rose/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2]
 LaTeX Font Info:    Trying to load font information for U+dingbat on input line
- 68.
+ 69.
 
 ("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/dingbat\udin
 gbat.fd"
@@ -573,47 +577,48 @@ File: udingbat.fd 2001/04/27 v1.00 Font definitions for the dingbat font
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../job_kluane_maps/Job glacier_elevation.png, id=99, 650.43pt x 542.025pt>
+<../job_kluane_maps/Job glacier_elevation.png, id=99, 650.43pt x 578.16pt>
 File: ../job_kluane_maps/Job glacier_elevation.png Graphic file (type png)
 <use ../job_kluane_maps/Job glacier_elevation.png>
 Package pdftex.def Info: ../job_kluane_maps/Job glacier_elevation.png  used on 
-input line 97.
-(pdftex.def)             Requested size: 325.2142pt x 271.01183pt.
+input line 98.
+(pdftex.def)             Requested size: 325.2142pt x 289.07928pt.
 [3]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-<../job_kluane_maps/Little Kluane glacier_elevation.png, id=114, 650.43pt x 542
-.025pt>
+[4]
+<../job_kluane_maps/Little Kluane glacier_elevation.png, id=125, 650.43pt x 578
+.16pt>
 File: ../job_kluane_maps/Little Kluane glacier_elevation.png Graphic file (type
  png)
 <use ../job_kluane_maps/Little Kluane glacier_elevation.png>
 Package pdftex.def Info: ../job_kluane_maps/Little Kluane glacier_elevation.png
-  used on input line 111.
-(pdftex.def)             Requested size: 325.2142pt x 271.01183pt.
-[4]
+  used on input line 112.
+(pdftex.def)             Requested size: 325.2142pt x 289.07928pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [5 <../job_kluane_maps/Job glacier_elevation.png>]
-<../job_kluane_maps/Job glacier_thickness.png, id=141, 650.43pt x 542.025pt>
+<../job_kluane_maps/Job glacier_thickness.png, id=141, 650.43pt x 578.16pt>
 File: ../job_kluane_maps/Job glacier_thickness.png Graphic file (type png)
 <use ../job_kluane_maps/Job glacier_thickness.png>
 Package pdftex.def Info: ../job_kluane_maps/Job glacier_thickness.png  used on 
-input line 125.
-(pdftex.def)             Requested size: 292.6908pt x 243.90898pt.
+input line 126.
+(pdftex.def)             Requested size: 292.6908pt x 260.16959pt.
 <../job_kluane_maps/Job glacier_cropped_thickness.png, id=144, 578.16pt x 578.1
 6pt>
 File: ../job_kluane_maps/Job glacier_cropped_thickness.png Graphic file (type p
 ng)
 <use ../job_kluane_maps/Job glacier_cropped_thickness.png>
 Package pdftex.def Info: ../job_kluane_maps/Job glacier_cropped_thickness.png  
-used on input line 133.
+used on input line 134.
 (pdftex.def)             Requested size: 260.16959pt x 260.16959pt.
  [6 <../job_kluane_maps/Little Kluane glacier_elevation.png>]
 
@@ -623,7 +628,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../job_kluane_maps/Job glacier_error.png Graphic file (type png)
 <use ../job_kluane_maps/Job glacier_error.png>
 Package pdftex.def Info: ../job_kluane_maps/Job glacier_error.png  used on inpu
-t line 140.
+t line 141.
 (pdftex.def)             Requested size: 231.2599pt x 231.2599pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -633,13 +638,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../job_kluane_maps/Job glacier_rel_error.png Graphic file (type png)
 <use ../job_kluane_maps/Job glacier_rel_error.png>
 Package pdftex.def Info: ../job_kluane_maps/Job glacier_rel_error.png  used on 
-input line 148.
+input line 149.
 (pdftex.def)             Requested size: 231.2599pt x 231.2599pt.
 <../job_kluane_maps/Job glacier_xy.png, id=166, 462.528pt x 346.896pt>
 File: ../job_kluane_maps/Job glacier_xy.png Graphic file (type png)
 <use ../job_kluane_maps/Job glacier_xy.png>
 Package pdftex.def Info: ../job_kluane_maps/Job glacier_xy.png  used on input l
-ine 156.
+ine 157.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
 
 
@@ -648,21 +653,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<../job_kluane_maps/Little Kluane glacier_thickness.png, id=170, 650.43pt x 542
-.025pt>
+<../job_kluane_maps/Little Kluane glacier_thickness.png, id=170, 650.43pt x 578
+.16pt>
 File: ../job_kluane_maps/Little Kluane glacier_thickness.png Graphic file (type
  png)
 <use ../job_kluane_maps/Little Kluane glacier_thickness.png>
 Package pdftex.def Info: ../job_kluane_maps/Little Kluane glacier_thickness.png
-  used on input line 164.
-(pdftex.def)             Requested size: 260.16739pt x 216.80615pt.
+  used on input line 165.
+(pdftex.def)             Requested size: 260.16739pt x 231.2599pt.
 <../job_kluane_maps/Little Kluane glacier_cropped_thickness.png, id=173, 578.16
 pt x 578.16pt>
 File: ../job_kluane_maps/Little Kluane glacier_cropped_thickness.png Graphic fi
 le (type png)
 <use ../job_kluane_maps/Little Kluane glacier_cropped_thickness.png>
 Package pdftex.def Info: ../job_kluane_maps/Little Kluane glacier_cropped_thick
-ness.png  used on input line 172.
+ness.png  used on input line 173.
 (pdftex.def)             Requested size: 231.2599pt x 231.2599pt.
 <../job_kluane_maps/Little Kluane glacier_error.png, id=176, 578.16pt x 578.16p
 t>
@@ -706,63 +711,47 @@ LaTeX Warning: Text page 12 contains only floats.
 
 [12 <../job_kluane_maps/Little Kluane glacier_error.png> <../job_kluane_maps/Li
 ttle Kluane glacier_rel_error.png>]
-
-LaTeX Warning: Reference `fig:job_lk_rel_boxplot' on page 13 undefined on input
- line 202.
-
 \dtldb@errdata=\toks47
 \dtlkeys@errdata=\toks48
 \dtlrows@errdata=\count312
 \dtlcols@errdata=\count313
-
-Overfull \hbox (62.76416pt too wide) in paragraph at lines 211--221
- [][] 
- []
-
-<../job_kluane_maps/boxplots.png, id=217, 462.528pt x 346.896pt>
+<../job_kluane_maps/boxplots.png, id=216, 462.528pt x 346.896pt>
 File: ../job_kluane_maps/boxplots.png Graphic file (type png)
 <use ../job_kluane_maps/boxplots.png>
-Package pdftex.def Info: ../job_kluane_maps/boxplots.png  used on input line 22
-6.
-(pdftex.def)             Requested size: 195.0pt x 146.2511pt.
-<../job_kluane_maps/rel_boxplots.png, id=218, 462.528pt x 346.896pt>
+Package pdftex.def Info: ../job_kluane_maps/boxplots.png  used on input line 23
+9.
+(pdftex.def)             Requested size: 272.99881pt x 204.75684pt.
+<../job_kluane_maps/rel_boxplots.png, id=217, 462.528pt x 346.896pt>
 File: ../job_kluane_maps/rel_boxplots.png Graphic file (type png)
 <use ../job_kluane_maps/rel_boxplots.png>
 Package pdftex.def Info: ../job_kluane_maps/rel_boxplots.png  used on input lin
-e 231.
-(pdftex.def)             Requested size: 195.0pt x 146.2511pt.
-
-Overfull \hbox (2.61108pt too wide) in paragraph at lines 225--235
-[]$[]$ $[]$ 
- []
+e 239.
+(pdftex.def)             Requested size: 272.99881pt x 204.75684pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(Report-v2.bbl [13 <../job_kluane_maps/Little Kluane glacier_xy.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
- [14 <../job_kluane_maps/boxplots.png> <../job_kluane_maps/rel_boxplots.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
+[13 <../job_kluane_maps/Little Kluane glacier_xy.png>] (Report-v2.bbl [14 <../j
+ob_kluane_maps/boxplots.png> <../job_kluane_maps/rel_boxplots.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 254.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 254.
 
 (Report-v2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 254.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 254.
 Package rerunfilecheck Info: File `Report-v2.out' has not changed.
 (rerunfilecheck)             Checksum: 348319DE7ECC56416DB53310671D0268;921.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 243.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 254.
  ) 
 Here is how much of TeX's memory you used:
- 10000 strings out of 480930
- 156776 string characters out of 2896946
- 462631 words of memory out of 3000000
- 25600 multiletter control sequences out of 15000+200000
- 542958 words of font info for 61 fonts, out of 3000000 for 9000
+ 10018 strings out of 480930
+ 157185 string characters out of 2896946
+ 462734 words of memory out of 3000000
+ 25613 multiletter control sequences out of 15000+200000
+ 543412 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,100p,1467b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,15n,100p,1467b,529s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Adalia Rose\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/dingba
 t/dpi600\dingbat.pk> <C:\Users\Adalia Rose\AppData\Local\MiKTeX\2.9\fonts/pk/lj
 four/public/dingbat/dpi720\dingbat.pk> <C:\Users\Adalia Rose\AppData\Local\MiKT
@@ -771,21 +760,26 @@ Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Us
 ers/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Adalia Rose/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/User
-s/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmib10.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/Adalia Rose/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Adalia Rose/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Use
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Adalia Rose/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Use
 rs/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Adalia Rose/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Report-v2.pdf (14 pages, 1056193 bytes).
+/cmmi12.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Adalia Rose/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/A
+dalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextr
+a/cmmib8.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Adalia Rose/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Ada
+lia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
+pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Adalia Rose/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Report-v2.pdf (15 pages, 1044206 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
