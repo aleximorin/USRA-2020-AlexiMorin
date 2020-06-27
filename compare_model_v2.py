@@ -59,7 +59,7 @@ if __name__ == '__main__':
     xl_path = imgs + '/statistics.xlsx'
     try:
         os.makedirs(imgs)
-    except Exception as e:
+    except OSError as e:
         pass
 
     ng = Glacier('North glacier', 'north_glacier',
