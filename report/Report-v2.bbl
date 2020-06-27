@@ -28,6 +28,37 @@ Bahr, D\BPBI B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Clarke%
+\ \protect \BOthers {.}}{%
+Clarke%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+clarke2013ice}
+\APACinsertmetastar {%
+clarke2013ice}%
+\begin{APACrefauthors}%
+Clarke, G\BPBI K.%
+, Anslow, F\BPBI S.%
+, Jarosch, A\BPBI H.%
+, Radi{\'c}, V.%
+, Menounos, B.%
+, Bolch, T.%
+\BCBL {}\ \BBA {} Berthier, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Ice volume and subglacial topography for western
+  Canadian glaciers from mass balance fields, thinning rates, and a bed stress
+  model} {Ice volume and subglacial topography for western canadian glaciers
+  from mass balance fields, thinning rates, and a bed stress model}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Climate}{26}{12}{4282--4303}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Farinotti%
 \ \protect \BOthers {.}}{%
 Farinotti%
@@ -114,6 +145,36 @@ Huss, M.%
 \newblock
 \APACjournalVolNumPages{Journal of Geophysical Research: Earth
   Surface}{117}{F4}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Langhammer%
+, Grab%
+, Bauder%
+\BCBL {}\ \BBA {} Maurer%
+}{%
+Langhammer%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+langhammer2019glacier}
+\APACinsertmetastar {%
+langhammer2019glacier}%
+\begin{APACrefauthors}%
+Langhammer, L.%
+, Grab, M.%
+, Bauder, A.%
+\BCBL {}\ \BBA {} Maurer, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Glacier thickness estimations of alpine glaciers using
+  data and modeling constraints} {Glacier thickness estimations of alpine
+  glaciers using data and modeling constraints}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cryosphere}{13}{8}{2189--2202}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

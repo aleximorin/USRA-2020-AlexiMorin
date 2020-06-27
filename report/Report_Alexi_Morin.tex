@@ -117,6 +117,20 @@ A higher value of $R^2$ would mean a higher resemblance between the overall topo
 The top correlations of each glaciers were compiled and ranked in Table \ref{tab:glacier_correl}\\
 \DTLloaddb{rs}{../hypsometry_compared_r2_ez_view.csv}
 
+\begin{table}[h!]
+	\centering
+	\caption{Glacier correlation} \label{tab:glacier_correl}
+	\begin{tabular}{|c|c||c|c|}
+		\hline
+		\multicolumn{2}{|c||}{Job} & \multicolumn{2}{|c|}{Little Kluane}\\
+		\hline
+		Glacier name & $R^2$ value & Glacier name & $R^2$ value
+		\DTLforeach{rs}
+		{\job=job_index,\jobr2=job_r2,\lk=lk_index,\lkr2=lk_r2}
+		{\\ \hline \job & \jobr2 & \lk & \lkr2}
+		\\ \hline
+	\end{tabular}
+\end{table}
 Those glaciers are the better correlated to our study cases. Their hypsometric curves can be seen in the appendix. More data would be interesting to look at for better comparison:
 \begin{itemize}
 	\item The actual geometry of the glacier has been mostly ignored. It would be great to be able to quantify similarity in the shapes of the glacier.
