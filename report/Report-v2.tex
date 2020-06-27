@@ -6,12 +6,16 @@
 \usepackage{dingbat}
 \usepackage{subcaption}
 \usepackage{wrapfig}
+\usepackage{amsmath}
 \usepackage{placeins}
+\usepackage{caption}
+\usepackage{threeparttable}
+\usepackage{ragged2e}
 
 \begin{document}
 \section{Introduction}
 \subsection{Motivation}
-Inferring glacier thickness has been a long-standing problem for glaciologist. Acquiring such data today is often done with an airborne or sled-mounted ground penetrating radar. Such equipment can be costly and difficult to acquire, hence the development of inferring methods.\\
+Inferring glacier thickness has been a long-standing problem for glaciologist. Acquiring such data today is often done with an airborne or sled-mounted ground penetrating radar (GPR). Such equipment can be costly and difficult to acquire, hence the development of inferring methods.\\
 
 Determining mean ice thickness lets us estimate the total volume of ice in a given glacier, necessary to quantify the water stored. In the context of climate change, a proper estimate of ice thickness is necessary for correctly estimating sea-level change \cite{farinotti2016accurate}. Many techniques have been developed for this problem, such as "power law" or "scaling" methods, deriving total ice volume from glacier surface area \cite{bahr2015review}. Other more modern methods have been developed for inferring distributed ice thickness. Those methods, using theoretical and mathematical models, often need intricate and difficult assumptions such as uniform basal shear stress an estimation of basal velocity \cite{farinotti2016accurate}. A rapidly increasing number of models are being developed, hence the need of an accurate representation of their performance along various conditions. The Ice Thickness Models Intercomparison eXperiment \cite{farinotti2016accurate} or \textit{ITMIX} did exactly this. 17 models were compare in this extensive paper along 21 study sites. This study tremendously helped the development of a global estimate of distributed glacier thickness \cite{farinotti2019consensus}. The five best performing models out of the experiment needing easily available data were used to make this worldwide estimation. The modelled data is freely available online for glaciers across the world.\\
 
@@ -247,6 +251,75 @@ This confirms us that, for Job glacier's case, the mean error is negative meanin
 For Little Kluane glacier, the error is strictly positive, meaning that the ice thickness is over estimated for every point measured. The model also shows less variation than in Job's case with a smaller percentage standard deviation.
 
 These findings validate the need to better the model with the ice thickness measurements.
+
+\section{GlaTe model}
+The consensus estimate \cite{farinotti2019consensus} makes a good estimate of our study cases. However, 
+it would be ideal to be able to use collected ice thickness data to better the distributed ice thickness model. The freely available online GlaTe model \cite{langhammer2019glacier} aims to do this. \\
+Using a physical model inspired by \citeauthor{clarke2013ice} \citeyear{clarke2013ice}, they initially estimate the distributed ice thickness $\hat{h}^{glac}$. With the available ice thickness data $h^{GPR}$, they reduce the observable error on this approximation by fitting a coefficient $\alpha_{GPR}$ from  minimizing a cost function $q$ defined as
+\[q = ||h^{GPR} - \alpha_{GPR}\hat{h}^{glac}||^2\] 
+equivalent of a linear regression with a fixed (and null) intercept. They use this coefficient such that
+\[h^{glac} = \alpha_{GPR}\hat{h}^{glac}\]
+is a supposedly better overall approximation, giving a bigger weight to the observed data and minimizing the impact of generalized trends in the physical model.
+Using this better approximation $h^{glac}$, they then solve this system of equations:
+\[
+\begin{bmatrix} \lambda_1 G\\ \lambda_2 L\\ \lambda_3 B\\ \lambda_4 S\\ \end{bmatrix}
+h^{est} = 
+\begin{bmatrix} \lambda_1 h^{GPR}\\ \lambda_2 \nabla h^{glac} \\ 0 \\ 0 \end{bmatrix}
+\]
+
+where $h^{est}$ is the final modelled ice thickness distribution. (I either keep this part and more deeply explain every term or drop it and summarise the process.) The article from \citeauthor{langhammer2019glacier} goes into great details over the process. 
+ 
+The algorithm then outputs three distributed ice thickness maps:
+\begin{itemize}
+\item The physical model $\hat{h}^{glac}$
+\item The corrected physical model $h^{glac} = \alpha_{GPR}\hat{h}^{glac}$
+\item The final estimation $h^{est}$
+\end{itemize}
+
+The GlaTe model could be described as a physical method of ice thickness interpolation. When used with a fairly large and regularly distributed dataset, the modelled ice thickness $h^{est}$ has a very small observable error. The surface elevation and GPR coverage for North 
+This can be observed for North and South glaciers where the GlaTe algorithm was applied on figure \ref{fig:glate_ng_sg_thickness}.
+\\
+\begin{figure}[h!]
+\centering
+\makebox[0.7\textwidth][c]
+{
+\begin{subfigure}{0.35\linewidth}
+\includegraphics{../imgs/North glacier/glate_thickness_all_models.png}
+\caption{North glacier}
+\label{fig:glate_ng_thickness}
+\end{subfigure}
+\begin{subfigure}{0.35\linewidth}
+\includegraphics{../imgs/South glacier/glate_thickness_all_models.png}
+\caption{South glacier}
+\label{fig:glate_sg_thickness}
+\end{subfigure}
+}
+\label{fig:glate_ng_sg_thickness}
+\caption{Thickness maps produced with the GlaTe algorithm for North and South glacier.}
+\end{figure}
+
+It seems that $h_{est}$ is a good candidate for am ice thickness model. Scatterplots similar to the precedent section also have been produced are visible at figure \ref{fig:glate_ng_sg_xy}.\\
+
+\begin{figure}[h!]
+\centering
+\makebox[0.7\textwidth][c]
+{
+\begin{subfigure}{0.7\linewidth}
+\includegraphics[width=\linewidth]{../imgs/North glacier/xy_scatter_glate_full.png}
+\caption{North glacier}
+\label{fig:glate_ng_xy}
+\end{subfigure}
+\begin{subfigure}{0.7\linewidth}
+\includegraphics[width=\linewidth]{../imgs/South glacier/xy_scatter_glate_full.png}
+\caption{South glacier}
+\label{fig:glate_sg_xy}
+\end{subfigure}
+}
+\label{fig:glate_ng_sg_xy}
+\caption{Measured on modelled thickness for North and South glaciers.}
+\end{figure}
+
+While it seems that the model makes a perfect job at reducing the error, this is probably caused by the very good coverage of the ground penetrating radar data. The error from the physical model is then minimised and smoothed by the GlaTe algorithm for every data point.
 
 \bibliographystyle{apacite}
 \bibliography{References}
