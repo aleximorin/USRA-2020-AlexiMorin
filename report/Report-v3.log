@@ -1,0 +1,1257 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.8)  25 AUG 2020 14:52
+entering extended mode
+**./Report-v3.tex
+(Report-v3.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-04-06>
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article
+.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.
+clo"
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gra
+phicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\key
+val.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\gra
+phics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\tri
+g.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg
+\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def
+\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyp
+erref.sty"
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\lt
+xcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifte
+x.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\p
+dftexcmds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\
+infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\
+kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefineke
+ys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape\
+pdfescape.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hyco
+lor.sty"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\
+letltxmacro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxh
+ook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kv
+options.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen137
+\Hy@linkcounter=\count175
+\Hy@pagecounter=\count176
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1
+enc.def"
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\in
+tcalc.sty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\e
+texcmds.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count177
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count178
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen138
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bit
+set.sty"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc
+\bigintcalc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count179
+\Field@Width=\dimen139
+\Fld@charsize=\dimen140
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\a
+tbegshi.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count180
+\c@Item=\count181
+\c@Hfootnote=\count182
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpd
+ftex.def"
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\at
+veryend.sty"
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count183
+\c@bookmark@seq@number=\count184
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfileche
+ck\rerunfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecoun
+ter\uniquecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip49
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datatool\dat
+atool.sty"
+Package: datatool 2019/09/27 v2.32 (NLCT)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xkeyval\xkey
+val.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xk
+eyval.tex"
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xk
+vutils.tex"
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+)
+\XKV@depth=\count185
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.
+sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xfor\xfor.st
+y"
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/substr\subst
+r.sty"
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count186
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\eto
+olbox.sty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count187
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datatool\dat
+atool-base.sty"
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsm
+ath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amst
+ext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsg
+en.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen141
+))
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsb
+sy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amso
+pn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count188
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count189
+\leftroot@=\count190
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count191
+\DOTSCASE@=\count192
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count193
+\c@MaxMatrixCols=\count194
+\dotsspace@=\muskip17
+\c@parentequation=\count195
+\dspbrk@lvl=\count196
+\tag@help=\toks19
+\row@=\count197
+\column@=\count198
+\maxfields@=\count199
+\andhelp@=\toks20
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks21
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/datatool\dat
+atool-fp.sty"
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp.sty"
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\defpatter
+n.sty"
+Package: defpattern 1994/10/12
+\actioncount=\count266
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-basic.
+sty"
+Package: fp-basic 1996/05/13
+\FP@xs=\count267
+\FP@xia=\count268
+\FP@xib=\count269
+\FP@xfa=\count270
+\FP@xfb=\count271
+\FP@rega=\count272
+\FP@regb=\count273
+\FP@regs=\count274
+\FP@times=\count275
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-addons
+.sty"
+Package: fp-addons 1995/03/15
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-snap.s
+ty"
+Package: fp-snap 1995/04/05
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-exp.st
+y"
+Package: fp-exp 1995/04/03
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-trigo.
+sty"
+Package: fp-trigo 1995/04/14
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-pas.st
+y"
+Package: fp-pas 1994/08/29
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-random
+.sty"
+Package: fp-random 1995/02/23
+\FPseed=\count276
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-eqn.st
+y"
+Package: fp-eqn 1995/04/03
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-upn.st
+y"
+Package: fp-upn 1996/10/21
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fp\fp-eval.s
+ty"
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks23
+\@dtl@tmpcount=\count277
+\dtl@tmplength=\skip53
+\dtl@sortresult=\count278
+\@dtl@numgrpsepcount=\count279
+\@dtl@datatype=\count280
+\dtl@codeA=\count281
+\dtl@codeB=\count282
+\@dtl@foreach@level=\count283
+)
+\dtlcolumnnum=\count284
+\dtlrownum=\count285
+\@dtl@before=\toks24
+\@dtl@after=\toks25
+\@dtl@colhead=\toks26
+\dtlcurrentrow=\toks27
+\dtlbeforerow=\toks28
+\dtlafterrow=\toks29
+\dtlforeachlevel=\count286
+\c@DTLrowi=\count287
+\c@DTLrowii=\count288
+\c@DTLrowiii=\count289
+\c@DTLrow=\count290
+\dtl@rowi=\count291
+\dtl@rowii=\count292
+\dtl@rowiii=\count293
+\@dtl@curi=\toks30
+\@dtl@previ=\toks31
+\@dtl@nexti=\toks32
+\@dtl@curii=\toks33
+\@dtl@previi=\toks34
+\@dtl@nextii=\toks35
+\@dtl@curiii=\toks36
+\@dtl@previii=\toks37
+\@dtl@nextiii=\toks38
+\@dtl@elements=\count294
+\@dtl@list=\toks39
+\@dtl@rowa=\toks40
+\@dtl@rowb=\toks41
+\@dtl@toksA=\toks42
+\@dtl@toksB=\toks43
+\@dtl@write=\write3
+\@dtl@read=\read2
+\dtl@entrycr=\count295
+\dtl@omitlines=\count296
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/apacite\apac
+ite.sty"
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count297
+\bibleftmargin=\skip54
+\bibindent=\skip55
+\bibparsep=\skip56
+\bibitemsep=\skip57
+\biblabelsep=\skip58
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/dingbat\ding
+bat.sty"
+Package: dingbat 2001/04/27 v1.00 Hands and other dingbats
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subc
+aption.sty"
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\capt
+ion.sty"
+Package: caption 2020/05/10 v3.4j Customizing captions (AR)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\capt
+ion3.sty"
+Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count298
+\c@continuedfloat=\count299
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count300
+\c@subtable=\count301
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/wrapfig\wrap
+fig.sty"
+\wrapoverhang=\dimen157
+\WF@size=\dimen158
+\c@WF@wrappedlines=\count302
+\WF@box=\box47
+\WF@everypar=\toks44
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/placeins\pla
+ceins.sty"
+Package: placeins 2005/04/18  v 2.2
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/threeparttab
+le\threeparttable.sty"
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box48
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ragged2e\rag
+ged2e.sty"
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everysel.
+sty"
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip59
+\RaggedLeftLeftskip=\skip60
+\RaggedRightLeftskip=\skip61
+\CenteringRightskip=\skip62
+\RaggedLeftRightskip=\skip63
+\RaggedRightRightskip=\skip64
+\CenteringParfillskip=\skip65
+\RaggedLeftParfillskip=\skip66
+\RaggedRightParfillskip=\skip67
+\JustifyingParfillskip=\skip68
+\CenteringParindent=\skip69
+\RaggedLeftParindent=\skip70
+\RaggedRightParindent=\skip71
+\JustifyingParindent=\skip72
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbi
+b.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip73
+\bibsep=\skip74
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citeauthor on input line 712.
+LaTeX Info: Redefining \citeyear on input line 735.
+\c@NAT@ctr=\count303
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdflscape\pd
+flscape.sty"
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lsc
+ape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 21.
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3
+backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count304
+\l__pdf_internal_box=\box49
+)
+
+LaTeX Warning: Unused global option(s):
+    [a4].
+
+(Report-v3.aux
+
+LaTeX Warning: Label `fig:sg_dem' multiply defined.
+
+
+LaTeX Warning: Label `fig:ng_alpha_dist' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ng_alpha_dist' multiply defined.
+
+
+LaTeX Warning: Label `fig:sg_alpha_dist' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:sg_alpha_dist' multiply defined.
+
+)
+\openout1 = `Report-v3.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\
+supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count305
+\scratchdimen=\dimen159
+\scratchbox=\box50
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen160
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks46
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg
+\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+\AtBeginShipoutBox=\box51
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\col
+or.sty"
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg
+\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+Package hyperref Info: Link coloring ON on input line 30.
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nam
+eref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\ref
+count.sty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlest
+ring\gettitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count311
+)
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
+ (Report-v3.out) (Report-v3.out)
+\@outlinefile=\write4
+\openout4 = `Report-v3.out'.
+
+\c@maskedRefs=\count312
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/apacite\engl
+ish.apc"
+File: english.apc 2013/07/21 v6.03 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 30.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+[1
+
+{C:/Users/Adalia Rose/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+[2] [3]
+LaTeX Font Info:    Trying to load font information for U+dingbat on input line
+ 97.
+
+("C:\Users\Adalia Rose\AppData\Local\Programs\MiKTeX 2.9\tex/latex/dingbat\udin
+gbat.fd"
+File: udingbat.fd 2001/04/27 v1.00 Font definitions for the dingbat font
+) [4]
+<../imgs/North glacier/elevation.png, id=217, 377.9721pt x 354.123pt>
+File: ../imgs/North glacier/elevation.png Graphic file (type png)
+<use ../imgs/North glacier/elevation.png>
+Package pdftex.def Info: ../imgs/North glacier/elevation.png  used on input lin
+e 128.
+(pdftex.def)             Requested size: 302.37808pt x 283.29877pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5]
+<../imgs/South glacier/elevation.png, id=238, 362.0727pt x 354.123pt>
+File: ../imgs/South glacier/elevation.png Graphic file (type png)
+<use ../imgs/South glacier/elevation.png>
+Package pdftex.def Info: ../imgs/South glacier/elevation.png  used on input lin
+e 142.
+(pdftex.def)             Requested size: 289.65854pt x 283.29877pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <../imgs/North glacier/elevation.png>]
+<../imgs/Kaskawulsh glacier/elevation.png, id=251, 426.393pt x 278.2395pt>
+File: ../imgs/Kaskawulsh glacier/elevation.png Graphic file (type png)
+<use ../imgs/Kaskawulsh glacier/elevation.png>
+Package pdftex.def Info: ../imgs/Kaskawulsh glacier/elevation.png  used on inpu
+t line 156.
+(pdftex.def)             Requested size: 341.11485pt x 222.59189pt.
+ [7 <../imgs/South glacier/elevation.png>]
+<../imgs/Job glacier/elevation.png, id=268, 426.393pt x 335.3328pt>
+File: ../imgs/Job glacier/elevation.png Graphic file (type png)
+<use ../imgs/Job glacier/elevation.png>
+Package pdftex.def Info: ../imgs/Job glacier/elevation.png  used on input line 
+170.
+(pdftex.def)             Requested size: 341.11485pt x 268.26659pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <../imgs/Kaskawulsh glacier/elevation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+[9 <../imgs/Job glacier/elevation.png>]
+<../imgs/little Kluane glacier, post-surge/elevation.png, id=299, 419.8887pt x 
+284.0211pt>
+File: ../imgs/little Kluane glacier, post-surge/elevation.png Graphic file (typ
+e png)
+<use ../imgs/little Kluane glacier, post-surge/elevation.png>
+Package pdftex.def Info: ../imgs/little Kluane glacier, post-surge/elevation.pn
+g  used on input line 185.
+(pdftex.def)             Requested size: 272.92442pt x 184.61153pt.
+<../imgs/little Kluane glacier, post-surge/kluane_outlines.png, id=304, 462.528
+pt x 346.896pt>
+File: ../imgs/little Kluane glacier, post-surge/kluane_outlines.png Graphic fil
+e (type png)
+<use ../imgs/little Kluane glacier, post-surge/kluane_outlines.png>
+Package pdftex.def Info: ../imgs/little Kluane glacier, post-surge/kluane_outli
+nes.png  used on input line 191.
+(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10] [11 <../imgs/little Kluane glacier, post-surge/elevation.png> <../imgs/lit
+tle Kluane glacier, post-surge/kluane_outlines.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 204--209
+
+ []
+
+[12
+
+]
+<../imgs/North glacier/consensus_thickness.png, id=351, 372.1905pt x 354.123pt>
+
+File: ../imgs/North glacier/consensus_thickness.png Graphic file (type png)
+<use ../imgs/North glacier/consensus_thickness.png>
+Package pdftex.def Info: ../imgs/North glacier/consensus_thickness.png  used on
+ input line 245.
+(pdftex.def)             Requested size: 142.26378pt x 135.35704pt.
+<../imgs/North glacier/xy_scatter_consensus.png, id=352, 282.5757pt x 275.3487p
+t>
+File: ../imgs/North glacier/xy_scatter_consensus.png Graphic file (type png)
+<use ../imgs/North glacier/xy_scatter_consensus.png>
+Package pdftex.def Info: ../imgs/North glacier/xy_scatter_consensus.png  used o
+n input line 245.
+(pdftex.def)             Requested size: 142.26378pt x 138.62773pt.
+<../imgs/North glacier/consensus_thickness_zoomed.png, id=353, 433.62pt x 287.6
+346pt>
+File: ../imgs/North glacier/consensus_thickness_zoomed.png Graphic file (type p
+ng)
+<use ../imgs/North glacier/consensus_thickness_zoomed.png>
+Package pdftex.def Info: ../imgs/North glacier/consensus_thickness_zoomed.png  
+used on input line 252.
+(pdftex.def)             Requested size: 199.16928pt x 132.11601pt.
+
+Overfull \hbox (4.16928pt too wide) in paragraph at lines 252--252
+ [][] 
+ []
+
+<../imgs/North glacier/consensus_error_zoomed.png, id=354, 433.62pt x 287.6346p
+t>
+File: ../imgs/North glacier/consensus_error_zoomed.png Graphic file (type png)
+<use ../imgs/North glacier/consensus_error_zoomed.png>
+Package pdftex.def Info: ../imgs/North glacier/consensus_error_zoomed.png  used
+ on input line 252.
+(pdftex.def)             Requested size: 199.16928pt x 132.11601pt.
+
+Overfull \hbox (4.16928pt too wide) in paragraph at lines 252--252
+ [][] 
+ []
+
+<../imgs/South glacier/consensus_thickness.png, id=368, 356.2911pt x 354.123pt>
+
+File: ../imgs/South glacier/consensus_thickness.png Graphic file (type png)
+<use ../imgs/South glacier/consensus_thickness.png>
+Package pdftex.def Info: ../imgs/South glacier/consensus_thickness.png  used on
+ input line 274.
+(pdftex.def)             Requested size: 187.2026pt x 186.06323pt.
+<../imgs/South glacier/xy_scatter_consensus.png, id=369, 282.5757pt x 271.7352p
+t>
+File: ../imgs/South glacier/xy_scatter_consensus.png Graphic file (type png)
+<use ../imgs/South glacier/xy_scatter_consensus.png>
+Package pdftex.def Info: ../imgs/South glacier/xy_scatter_consensus.png  used o
+n input line 274.
+(pdftex.def)             Requested size: 187.2026pt x 180.02577pt.
+<../imgs/South glacier/consensus_thickness_zoomed.png, id=370, 433.62pt x 287.6
+346pt>
+File: ../imgs/South glacier/consensus_thickness_zoomed.png Graphic file (type p
+ng)
+<use ../imgs/South glacier/consensus_thickness_zoomed.png>
+Package pdftex.def Info: ../imgs/South glacier/consensus_thickness_zoomed.png  
+used on input line 281.
+(pdftex.def)             Requested size: 234.00238pt x 155.2238pt.
+<../imgs/South glacier/consensus_error_zoomed.png, id=371, 433.62pt x 287.6346p
+t>
+File: ../imgs/South glacier/consensus_error_zoomed.png Graphic file (type png)
+<use ../imgs/South glacier/consensus_error_zoomed.png>
+Package pdftex.def Info: ../imgs/South glacier/consensus_error_zoomed.png  used
+ on input line 281.
+(pdftex.def)             Requested size: 253.49762pt x 168.15363pt.
+[13 <../imgs/North glacier/consensus_thickness.png> <../imgs/North glacier/xy_s
+catter_consensus.png> <../imgs/North glacier/consensus_thickness_zoomed.png> <.
+./imgs/North glacier/consensus_error_zoomed.png>] [14 <../imgs/South glacier/co
+nsensus_thickness.png> <../imgs/South glacier/xy_scatter_consensus.png> <../img
+s/South glacier/consensus_thickness_zoomed.png> <../imgs/South glacier/consensu
+s_error_zoomed.png>]
+<../imgs/Kaskawulsh glacier/consensus_thickness.png, id=404, 425.6703pt x 282.5
+757pt>
+File: ../imgs/Kaskawulsh glacier/consensus_thickness.png Graphic file (type png
+)
+<use ../imgs/Kaskawulsh glacier/consensus_thickness.png>
+Package pdftex.def Info: ../imgs/Kaskawulsh glacier/consensus_thickness.png  us
+ed on input line 305.
+(pdftex.def)             Requested size: 253.49762pt x 168.28337pt.
+<../imgs/Kaskawulsh glacier/xy_scatter_consensus.png, id=405, 281.853pt x 275.3
+487pt>
+File: ../imgs/Kaskawulsh glacier/xy_scatter_consensus.png Graphic file (type pn
+g)
+<use ../imgs/Kaskawulsh glacier/xy_scatter_consensus.png>
+Package pdftex.def Info: ../imgs/Kaskawulsh glacier/xy_scatter_consensus.png  u
+sed on input line 305.
+(pdftex.def)             Requested size: 202.79886pt x 198.12485pt.
+<../imgs/Kaskawulsh glacier/consensus_cropped_thickness.png, id=406, 425.6703pt
+ x 214.6419pt>
+File: ../imgs/Kaskawulsh glacier/consensus_cropped_thickness.png Graphic file (
+type png)
+<use ../imgs/Kaskawulsh glacier/consensus_cropped_thickness.png>
+Package pdftex.def Info: ../imgs/Kaskawulsh glacier/consensus_cropped_thickness
+.png  used on input line 312.
+(pdftex.def)             Requested size: 253.49762pt x 127.8265pt.
+<../imgs/Kaskawulsh glacier/consensus_cropped_error.png, id=407, 425.6703pt x 2
+12.4738pt>
+File: ../imgs/Kaskawulsh glacier/consensus_cropped_error.png Graphic file (type
+ png)
+<use ../imgs/Kaskawulsh glacier/consensus_cropped_error.png>
+Package pdftex.def Info: ../imgs/Kaskawulsh glacier/consensus_cropped_error.png
+  used on input line 312.
+(pdftex.def)             Requested size: 253.49762pt x 126.53532pt.
+<../imgs/Job glacier/consensus_thickness.png, id=416, 426.393pt x 344.7279pt>
+File: ../imgs/Job glacier/consensus_thickness.png Graphic file (type png)
+<use ../imgs/Job glacier/consensus_thickness.png>
+Package pdftex.def Info: ../imgs/Job glacier/consensus_thickness.png  used on i
+nput line 334.
+(pdftex.def)             Requested size: 227.62204pt x 184.02519pt.
+<../imgs/Job glacier/xy_scatter_consensus.png, id=417, 282.5757pt x 271.7352pt>
+
+File: ../imgs/Job glacier/xy_scatter_consensus.png Graphic file (type png)
+<use ../imgs/Job glacier/xy_scatter_consensus.png>
+Package pdftex.def Info: ../imgs/Job glacier/xy_scatter_consensus.png  used on 
+input line 334.
+(pdftex.def)             Requested size: 199.16928pt x 191.53601pt.
+<../imgs/Job glacier/consensus_cropped_thickness.png, id=418, 364.9635pt x 354.
+123pt>
+File: ../imgs/Job glacier/consensus_cropped_thickness.png Graphic file (type pn
+g)
+<use ../imgs/Job glacier/consensus_cropped_thickness.png>
+Package pdftex.def Info: ../imgs/Job glacier/consensus_cropped_thickness.png  u
+sed on input line 341.
+(pdftex.def)             Requested size: 227.62204pt x 220.86162pt.
+<../imgs/Job glacier/consensus_cropped_error.png, id=419, 370.7451pt x 354.123p
+t>
+File: ../imgs/Job glacier/consensus_cropped_error.png Graphic file (type png)
+<use ../imgs/Job glacier/consensus_cropped_error.png>
+Package pdftex.def Info: ../imgs/Job glacier/consensus_cropped_error.png  used 
+on input line 341.
+(pdftex.def)             Requested size: 227.62204pt x 217.4196pt.
+ [15 <../imgs/Kaskawulsh glacier/consensus_thickness.png> <../imgs/Kaskawulsh g
+lacier/xy_scatter_consensus.png> <../imgs/Kaskawulsh glacier/consensus_cropped_
+thickness.png> <../imgs/Kaskawulsh glacier/consensus_cropped_error.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16]
+
+LaTeX Warning: Text page 17 contains only floats.
+
+[17 <../imgs/Job glacier/consensus_thickness.png> <../imgs/Job glacier/xy_scatt
+er_consensus.png> <../imgs/Job glacier/consensus_cropped_thickness.png> <../img
+s/Job glacier/consensus_cropped_error.png>]
+<../imgs/little Kluane glacier, post-surge/consensus_thickness.png, id=457, 414
+.8298pt x 284.0211pt>
+File: ../imgs/little Kluane glacier, post-surge/consensus_thickness.png Graphic
+ file (type png)
+<use ../imgs/little Kluane glacier, post-surge/consensus_thickness.png>
+Package pdftex.def Info: ../imgs/little Kluane glacier, post-surge/consensus_th
+ickness.png  used on input line 358.
+(pdftex.def)             Requested size: 253.49762pt x 173.56032pt.
+<../imgs/little Kluane glacier, post-surge/xy_scatter_consensus.png, id=458, 42
+5.6703pt x 281.853pt>
+File: ../imgs/little Kluane glacier, post-surge/xy_scatter_consensus.png Graphi
+c file (type png)
+<use ../imgs/little Kluane glacier, post-surge/xy_scatter_consensus.png>
+Package pdftex.def Info: ../imgs/little Kluane glacier, post-surge/xy_scatter_c
+onsensus.png  used on input line 358.
+(pdftex.def)             Requested size: 253.49762pt x 167.85298pt.
+<../imgs/little Kluane glacier, post-surge/consensus_cropped_thickness.png, id=
+459, 372.9132pt x 280.4076pt>
+File: ../imgs/little Kluane glacier, post-surge/consensus_cropped_thickness.png
+ Graphic file (type png)
+<use ../imgs/little Kluane glacier, post-surge/consensus_cropped_thickness.png>
+
+Package pdftex.def Info: ../imgs/little Kluane glacier, post-surge/consensus_cr
+opped_thickness.png  used on input line 365.
+(pdftex.def)             Requested size: 253.49762pt x 190.61473pt.
+<../imgs/little Kluane glacier, post-surge/consensus_cropped_error.png, id=460,
+ 372.9132pt x 280.4076pt>
+File: ../imgs/little Kluane glacier, post-surge/consensus_cropped_error.png Gra
+phic file (type png)
+<use ../imgs/little Kluane glacier, post-surge/consensus_cropped_error.png>
+Package pdftex.def Info: ../imgs/little Kluane glacier, post-surge/consensus_cr
+opped_error.png  used on input line 365.
+(pdftex.def)             Requested size: 253.49762pt x 190.61473pt.
+ [18 <../imgs/little Kluane glacier, post-surge/consensus_thickness.png> <../im
+gs/little Kluane glacier, post-surge/xy_scatter_consensus.png> <../imgs/little 
+Kluane glacier, post-surge/consensus_cropped_thickness.png> <../imgs/little Klu
+ane glacier, post-surge/consensus_cropped_error.png>] [19]
+<../imgs/hists.png, id=489, 255.1131pt x 412.6617pt>
+File: ../imgs/hists.png Graphic file (type png)
+<use ../imgs/hists.png>
+Package pdftex.def Info: ../imgs/hists.png  used on input line 380.
+(pdftex.def)             Requested size: 195.0pt x 315.42699pt.
+ [20 <../imgs/hists.png>]
+\dtldb@errdata=\toks47
+\dtlkeys@errdata=\toks48
+\dtlrows@errdata=\count313
+\dtlcols@errdata=\count314
+ [21]
+\dtldb@relerrdata=\toks49
+\dtlkeys@relerrdata=\toks50
+\dtlrows@relerrdata=\count315
+\dtlcols@relerrdata=\count316
+\dtldb@5relerrdata=\toks51
+\dtlkeys@5relerrdata=\toks52
+\dtlrows@5relerrdata=\count317
+\dtlcols@5relerrdata=\count318
+ [22]
+\dtldb@relgpr=\toks53
+\dtlkeys@relgpr=\toks54
+\dtlrows@relgpr=\count319
+\dtlcols@relgpr=\count320
+
+
+Package caption Warning: \label without proper reference on input line 489.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:ashape' on page 23 undefined on input line 471.
+
+
+Package caption Warning: \label without proper reference on input line 489.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:ashape' on page 23 undefined on input line 471.
+
+<../imgs/ashape.png, id=562, 462.528pt x 345.4506pt>
+File: ../imgs/ashape.png Graphic file (type png)
+<use ../imgs/ashape.png>
+Package pdftex.def Info: ../imgs/ashape.png  used on input line 488.
+(pdftex.def)             Requested size: 272.99881pt x 203.90369pt.
+
+Package natbib Warning: Citation `farinotti2019conensus' on page 23 undefined o
+n input line 495.
+
+[23] [24 <../imgs/ashape.png>] [25]
+<../imgs/North glacier/glate_thickness_all_models.png, id=604, 169.8345pt x 643
+.203pt>
+File: ../imgs/North glacier/glate_thickness_all_models.png Graphic file (type p
+ng)
+<use ../imgs/North glacier/glate_thickness_all_models.png>
+Package pdftex.def Info: ../imgs/North glacier/glate_thickness_all_models.png  
+used on input line 573.
+(pdftex.def)             Requested size: 85.87068pt x 325.215pt.
+<../imgs/South glacier/glate_thickness_all_models.png, id=605, 160.4394pt x 643
+.203pt>
+File: ../imgs/South glacier/glate_thickness_all_models.png Graphic file (type p
+ng)
+<use ../imgs/South glacier/glate_thickness_all_models.png>
+Package pdftex.def Info: ../imgs/South glacier/glate_thickness_all_models.png  
+used on input line 573.
+(pdftex.def)             Requested size: 81.1204pt x 325.215pt.
+<../imgs/Kaskawulsh glacier/glate_thickness_all_models.png, id=606, 209.583pt x
+ 604.8999pt>
+File: ../imgs/Kaskawulsh glacier/glate_thickness_all_models.png Graphic file (t
+ype png)
+<use ../imgs/Kaskawulsh glacier/glate_thickness_all_models.png>
+Package pdftex.def Info: ../imgs/Kaskawulsh glacier/glate_thickness_all_models.
+png  used on input line 573.
+(pdftex.def)             Requested size: 112.68063pt x 325.215pt.
+<../imgs/Job glacier/glate_thickness_all_models.png, id=607, 212.4738pt x 642.4
+803pt>
+File: ../imgs/Job glacier/glate_thickness_all_models.png Graphic file (type png
+)
+<use ../imgs/Job glacier/glate_thickness_all_models.png>
+Package pdftex.def Info: ../imgs/Job glacier/glate_thickness_all_models.png  us
+ed on input line 573.
+(pdftex.def)             Requested size: 107.55292pt x 325.215pt.
+<../imgs/little Kluane glacier/glate_thickness_all_models.png, id=608, 209.583p
+t x 608.5134pt>
+File: ../imgs/little Kluane glacier/glate_thickness_all_models.png Graphic file
+ (type png)
+<use ../imgs/little Kluane glacier/glate_thickness_all_models.png>
+Package pdftex.def Info: ../imgs/little Kluane glacier/glate_thickness_all_mode
+ls.png  used on input line 573.
+(pdftex.def)             Requested size: 112.00906pt x 325.215pt.
+
+Overfull \hbox (36.5pt too wide) in paragraph at lines 537--574
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26 <../imgs/North glacier/glate_thickness_all_models.png> <../imgs/South glaci
+er/glate_thickness_all_models.png> <../imgs/Kaskawulsh glacier/glate_thickness_
+all_models.png> <../imgs/Job glacier/glate_thickness_all_models.png> <../imgs/l
+ittle Kluane glacier/glate_thickness_all_models.png>]
+<../imgs/fiveplot_glate_full.png, id=622, 462.528pt x 346.896pt>
+File: ../imgs/fiveplot_glate_full.png Graphic file (type png)
+<use ../imgs/fiveplot_glate_full.png>
+Package pdftex.def Info: ../imgs/fiveplot_glate_full.png  used on input line 58
+3.
+(pdftex.def)             Requested size: 292.5pt x 219.38724pt.
+ [27
+
+
+ <../imgs/fiveplot_glate_full.png>]
+<../imgs/fiveplot_glate_farinotti_full.png, id=643, 462.528pt x 346.896pt>
+File: ../imgs/fiveplot_glate_farinotti_full.png Graphic file (type png)
+<use ../imgs/fiveplot_glate_farinotti_full.png>
+Package pdftex.def Info: ../imgs/fiveplot_glate_farinotti_full.png  used on inp
+ut line 603.
+(pdftex.def)             Requested size: 292.5pt x 219.38724pt.
+ [28 <../imgs/fiveplot_glate_farinotti_full.png>]
+<../imgs/North glacier/farinotti_glate_thickness_all_models.png, id=657, 169.83
+45pt x 643.203pt>
+File: ../imgs/North glacier/farinotti_glate_thickness_all_models.png Graphic fi
+le (type png)
+<use ../imgs/North glacier/farinotti_glate_thickness_all_models.png>
+Package pdftex.def Info: ../imgs/North glacier/farinotti_glate_thickness_all_mo
+dels.png  used on input line 646.
+(pdftex.def)             Requested size: 85.87068pt x 325.215pt.
+<../imgs/South glacier/farinotti_glate_thickness_all_models.png, id=658, 160.43
+94pt x 643.203pt>
+File: ../imgs/South glacier/farinotti_glate_thickness_all_models.png Graphic fi
+le (type png)
+<use ../imgs/South glacier/farinotti_glate_thickness_all_models.png>
+Package pdftex.def Info: ../imgs/South glacier/farinotti_glate_thickness_all_mo
+dels.png  used on input line 646.
+(pdftex.def)             Requested size: 81.1204pt x 325.215pt.
+<../imgs/Kaskawulsh glacier/farinotti_glate_thickness_all_models.png, id=659, 2
+09.583pt x 604.8999pt>
+File: ../imgs/Kaskawulsh glacier/farinotti_glate_thickness_all_models.png Graph
+ic file (type png)
+<use ../imgs/Kaskawulsh glacier/farinotti_glate_thickness_all_models.png>
+Package pdftex.def Info: ../imgs/Kaskawulsh glacier/farinotti_glate_thickness_a
+ll_models.png  used on input line 646.
+(pdftex.def)             Requested size: 112.68063pt x 325.215pt.
+<../imgs/Job glacier/farinotti_glate_thickness_all_models.png, id=660, 212.4738
+pt x 642.4803pt>
+File: ../imgs/Job glacier/farinotti_glate_thickness_all_models.png Graphic file
+ (type png)
+<use ../imgs/Job glacier/farinotti_glate_thickness_all_models.png>
+Package pdftex.def Info: ../imgs/Job glacier/farinotti_glate_thickness_all_mode
+ls.png  used on input line 646.
+(pdftex.def)             Requested size: 107.55292pt x 325.215pt.
+<../imgs/little Kluane glacier/farinotti_glate_thickness_all_models.png, id=661
+, 209.583pt x 608.5134pt>
+File: ../imgs/little Kluane glacier/farinotti_glate_thickness_all_models.png Gr
+aphic file (type png)
+<use ../imgs/little Kluane glacier/farinotti_glate_thickness_all_models.png>
+Package pdftex.def Info: ../imgs/little Kluane glacier/farinotti_glate_thicknes
+s_all_models.png  used on input line 646.
+(pdftex.def)             Requested size: 112.00906pt x 325.215pt.
+
+Overfull \hbox (36.5pt too wide) in paragraph at lines 610--647
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29 <../imgs/North glacier/farinotti_glate_thickness_all_models.png> <../imgs/S
+outh glacier/farinotti_glate_thickness_all_models.png> <../imgs/Kaskawulsh glac
+ier/farinotti_glate_thickness_all_models.png> <../imgs/Job glacier/farinotti_gl
+ate_thickness_all_models.png> <../imgs/little Kluane glacier/farinotti_glate_th
+ickness_all_models.png>]
+<../imgs/North glacier, fewpoints/fewpoints_glate_farinotti_full_thickness_asha
+pe.png, id=677, 377.9721pt x 354.123pt>
+File: ../imgs/North glacier, fewpoints/fewpoints_glate_farinotti_full_thickness
+_ashape.png Graphic file (type png)
+<use ../imgs/North glacier, fewpoints/fewpoints_glate_farinotti_full_thickness_
+ashape.png>
+Package pdftex.def Info: ../imgs/North glacier, fewpoints/fewpoints_glate_farin
+otti_full_thickness_ashape.png  used on input line 667.
+(pdftex.def)             Requested size: 234.00238pt x 219.23517pt.
+<../imgs/North glacier/xy_scatter_fewpoints_glate_farinotti_full.png, id=682, 3
+46.1733pt x 339.669pt>
+File: ../imgs/North glacier/xy_scatter_fewpoints_glate_farinotti_full.png Graph
+ic file (type png)
+<use ../imgs/North glacier/xy_scatter_fewpoints_glate_farinotti_full.png>
+Package pdftex.def Info: ../imgs/North glacier/xy_scatter_fewpoints_glate_farin
+otti_full.png  used on input line 667.
+(pdftex.def)             Requested size: 234.00238pt x 229.60356pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 672.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 672.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 672.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 672.
+
+[30
+
+
+ <../imgs/North glacier, fewpoints/fewpoints_glate_farinotti_full_thickness_ash
+ape.png> <../imgs/North glacier/xy_scatter_fewpoints_glate_farinotti_full.png>]
+<../alpha_compare/alpha_joyplot_North glacier_0.png, id=698, 722.7pt x 361.35pt
+>
+File: ../alpha_compare/alpha_joyplot_North glacier_0.png Graphic file (type png
+)
+<use ../alpha_compare/alpha_joyplot_North glacier_0.png>
+Package pdftex.def Info: ../alpha_compare/alpha_joyplot_North glacier_0.png  us
+ed on input line 681.
+(pdftex.def)             Requested size: 361.3491pt x 180.67456pt.
+<../alpha_compare/alpha_joyplot_South glacier_0.png, id=699, 722.7pt x 361.35pt
+>
+File: ../alpha_compare/alpha_joyplot_South glacier_0.png Graphic file (type png
+)
+<use ../alpha_compare/alpha_joyplot_South glacier_0.png>
+Package pdftex.def Info: ../alpha_compare/alpha_joyplot_South glacier_0.png  us
+ed on input line 683.
+(pdftex.def)             Requested size: 361.3491pt x 180.67456pt.
+<../alpha_compare/alpha_joyplot_North glacier_2.png, id=702, 722.7pt x 361.35pt
+>
+File: ../alpha_compare/alpha_joyplot_North glacier_2.png Graphic file (type png
+)
+<use ../alpha_compare/alpha_joyplot_North glacier_2.png>
+Package pdftex.def Info: ../alpha_compare/alpha_joyplot_North glacier_2.png  us
+ed on input line 693.
+(pdftex.def)             Requested size: 361.3491pt x 180.67456pt.
+<../alpha_compare/alpha_joyplot_South glacier_2.png, id=703, 722.7pt x 361.35pt
+>
+File: ../alpha_compare/alpha_joyplot_South glacier_2.png Graphic file (type png
+)
+<use ../alpha_compare/alpha_joyplot_South glacier_2.png>
+Package pdftex.def Info: ../alpha_compare/alpha_joyplot_South glacier_2.png  us
+ed on input line 695.
+(pdftex.def)             Requested size: 361.3491pt x 180.67456pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 679--701
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[32 <../alpha_compare/alpha_joyplot_North glacier_0.png> <../alpha_compare/alph
+a_joyplot_South glacier_0.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 706--717
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 706--717
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 706--717
+
+ []
+
+[33 <../alpha_compare/alpha_joyplot_North glacier_2.png> <../alpha_compare/alph
+a_joyplot_South glacier_2.png>] [34]
+\dtldb@areadb=\toks55
+\dtlkeys@areadb=\toks56
+\dtlrows@areadb=\count321
+\dtlcols@areadb=\count322
+ (Report-v3.bbl [35] [36])
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 745.
+[37]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 745.
+ (Report-v3.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 745.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 745.
+Package rerunfilecheck Info: File `Report-v3.out' has not changed.
+(rerunfilecheck)             Checksum: 4F8F5868E97333AAB910FD0178C6D1E5;2194.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 745.
+ ) 
+Here is how much of TeX's memory you used:
+ 10997 strings out of 480930
+ 180284 string characters out of 2896946
+ 483659 words of memory out of 3000000
+ 26439 multiletter control sequences out of 15000+200000
+ 544487 words of font info for 66 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,17n,100p,1082b,621s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Adalia Rose\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/dingba
+t/dpi720\dingbat.pk> <C:\Users\Adalia Rose\AppData\Local\MiKTeX\2.9\fonts/pk/lj
+four/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/Adalia Rose/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb><C:/Users/Adalia Ro
+se/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Adalia Rose/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Adalia Rose
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
+:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Adalia Rose/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Adalia Rose/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/U
+sers/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cmextra/cmmib6.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/Adalia Rose/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Adalia R
+ose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr17.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Adalia Rose/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Adalia Rose/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
+s/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb><C:/Users/Adalia Rose/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmti12.pfb>
+Output written on Report-v3.pdf (37 pages, 6100414 bytes).
+PDF statistics:
+ 886 PDF objects out of 1000 (max. 8388607)
+ 166 named destinations out of 1000 (max. 500000)
+ 495 words of extra memory for PDF output out of 10000 (max. 10000000)
+
