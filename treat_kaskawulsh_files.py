@@ -3,11 +3,7 @@ import numpy as np
 import geopandas as gpd
 from dataclasses import dataclass
 import shapely.geometry as geom
-import fiona
 import shapely.ops as ops
-from Glaciers import Glacier, Model
-import matplotlib.pyplot as plt
-from typing import List
 
 # This code was used to treat Becca's files and to produce ice thickness maps for Kaskawulsh glacier
 
@@ -27,7 +23,7 @@ def in_box(x, y, box):
 
 
 # Initalise paths and lines
-path = r'C:\Users\Adalia Rose\Desktop\2scool4cool\e2020\data\kluane\kaskawulsh'
+path = r'C:..\data\kluane\kaskawulsh'
 titles = ['KWL', 'NA', 'CA', 'SA', 'SW', 'KW1', 'KW2', 'KW3', 'KW4', 'KW5']
 ref = 'lin nomig,nonlin nomig,lin nomig,nonlin mig,lin mig,nonlin nomig,nonlin nomig,lin nomig,lin mig,' \
       'nonlin nomig'.split(',')
