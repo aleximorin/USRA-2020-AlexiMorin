@@ -4,3 +4,4 @@ qgis_functions.py
 lk_oggm
 .idea
 __pycache__
+venv
