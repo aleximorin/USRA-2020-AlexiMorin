@@ -160,7 +160,8 @@ def compute_every_hypsometry():  # Void function computing the hypsometry of eve
     return xs, ys
 
 
-def compare_every_curve(xs=None, ys=None):  # void function calle when comparing Job and little Kluane to other glaciers
+def compare_every_curve(xs=None, ys=None):  # void function called when comparing Job and little Kluane
+    # to other glaciers
     if (xs or ys) is None:
         xs = pd.read_csv('xs.csv')
         ys = pd.read_csv('ys.csv')
