@@ -190,7 +190,7 @@ if __name__ == '__main__':
     nbr_of_samples = 50
     n_step = 100
 
-    animate_samples(ng, nbr_of_samples, 15, n_step, block=2)
+    animate_samples(ng, ng.models['consensus'], nbr_of_samples, 15, n_step, block=2)
 
     """ alpha_joyplot(ng, ng.models['farinotti_consensus'], nbr_of_iterations, nbr_of_samples, n_step, block=0)
     alpha_joyplot(ng, ng.models['farinotti_consensus'], nbr_of_iterations, nbr_of_samples, n_step, block=1)
