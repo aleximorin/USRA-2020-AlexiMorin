@@ -5,7 +5,7 @@ Main codes and outputs produced during my summer at SFU glaciology group.
 
 Codes:
 - compare_alpha.py
-  - Code used for testing alpha_GPR from Langhammer et. al. (2018) (see https://tc.copernicus.org/articles/13/2189/2019/)
+  \n Code used for testing alpha_GPR from Langhammer et. al. (2018) (see https://tc.copernicus.org/articles/13/2189/2019/)
   Plots produced are in the folder alpha_compare. More information in the report.
   
 - compare_every_glaciers.py and comparing_models.py
