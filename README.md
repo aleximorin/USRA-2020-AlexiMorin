@@ -8,10 +8,6 @@ Codes:
   -  Code used for testing alpha_GPR from Langhammer et. al. (2018) (see https://tc.copernicus.org/articles/13/2189/2019/)
   - Plots produced are in the folder alpha_compare. More information in the report.
   
-- compare_every_glaciers.py and comparing_models.py
-  - Code used at the beginning of the summer to compute the error from the test cases from ITMIX (see https://tc.copernicus.org/articles/11/949/2017/)
-  - Writing this code served as good practice for learning to manipulate georeferenced data and is probably bad. It also inspired the need and creation of the pyGM tool.
-  
 - dhdt.py
   - Code used to compute metrics from the dh/dt data handed out by Étienne Berthier. Not much ended up coming out from this code.
 
