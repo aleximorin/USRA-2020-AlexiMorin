@@ -27,7 +27,7 @@ Codes:
 - treat_kaskawulsh_files.py
   - Code used to manipulate the kaskawulsh data.
  
- - velocity_analysis.py
+- velocity_analysis.py
   - THIS CODE IS LOCATED IN THE VELOCITY_ANALYSIS FOLDER. Code used to analyze raster data along glacier flowlines. 
 
 Folders:
