@@ -1,7 +1,6 @@
-old
+imgs
 misc.py
 qgis_functions.py
-.idea
-__pycache__
-venv
-velocity_analysis/dem.tif
+lk_oggm
+job_kluane_maps
+ng_sg_maps
