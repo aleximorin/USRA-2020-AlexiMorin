@@ -22,8 +22,7 @@ job_lk_maps.py and ng_sg_maps.py
 - Code used to generate maps for mentionned glaciers. Inspired the pyGM library.
 
 compare_every_glaciers.py and comparing_models.py
-- Code used at the beginning of the summer to compute the error from the test cases from [ITMIX](https://tc.copernicus.org/articles/11/949/2017/)
-- Writing this code served as good practice for learning to manipulate georeferenced data and is probably bad. It also inspired the need and creation of the pyGM tool.
+- Code used at the beginning of the summer to compute the error from the test cases from [ITMIX](https://tc.copernicus.org/articles/11/949/2017/). Writing this code served as good practice for learning to manipulate georeferenced data and is probably bad. It also inspired the need and creation of the pyGM tool.
 
 ## Data:
 hypsometry_compared.csv
