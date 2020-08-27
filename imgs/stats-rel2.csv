@@ -1,0 +1,6 @@
+Glacier,Mean,Std,Median,Maximum,Minimum,Mean absolute,RMSE
+North glacier,30.74,31.93,23.56,205.26,-42.15,33.47,44.32
+South glacier,inf,nan,31.53,inf,-79.35,inf,inf
+Kaskawulsh glacier,169.56,800.80,18.43,7417.17,-26.12,175.58,818.55
+Job glacier,-3.58,23.50,-8.66,76.49,-36.74,18.12,23.77
+little Kluane glacier,21.22,12.17,22.75,36.31,0.38,21.22,24.46
