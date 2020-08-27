@@ -1,5 +1,0 @@
-USER
-
-# Data files
-
-Surface_DEM_Little_Kluane.tif
