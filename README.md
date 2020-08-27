@@ -5,12 +5,12 @@ Main codes and outputs produced during my summer at SFU glaciology group.
 
 Codes:
 - compare_alpha.py
-  \n Code used for testing alpha_GPR from Langhammer et. al. (2018) (see https://tc.copernicus.org/articles/13/2189/2019/)
-  Plots produced are in the folder alpha_compare. More information in the report.
+  -  Code used for testing alpha_GPR from Langhammer et. al. (2018) (see https://tc.copernicus.org/articles/13/2189/2019/)
+  - Plots produced are in the folder alpha_compare. More information in the report.
   
 - compare_every_glaciers.py and comparing_models.py
   - Code used at the beginning of the summer to compute the error from the test cases from ITMIX (see https://tc.copernicus.org/articles/11/949/2017/)
-  Writing this code served as good practice for learning to manipulate georeferenced data and is probably bad. It also inspired the need and creation of the pyGM tool.
+  - Writing this code served as good practice for learning to manipulate georeferenced data and is probably bad. It also inspired the need and creation of the pyGM tool.
   
 - dhdt.py
   - Code used to compute metrics from the dh/dt data handed out by Étienne Berthier. Not much ended up coming out from this code.
@@ -28,20 +28,20 @@ Codes:
   - Code used to manipulate the kaskawulsh data.
  
  - velocity_analysis.py
-  THIS CODE IS LOCATED IN THE VELOCITY_ANALYSIS FOLDER. Code used to analyze raster data along glacier flowlines. 
+  - THIS CODE IS LOCATED IN THE VELOCITY_ANALYSIS FOLDER. Code used to analyze raster data along glacier flowlines. 
 
 Folders:
 - alpha_compare
-  Plots produced by compare_alpha.py
+  - Plots produced by compare_alpha.py
   
 - imgs
-  Many plots produced for the glacier test cases
+  - Many plots produced for the glacier test cases
   
 - velocity_analysis
-  Plots and data generated from velocity_analysis.py. About surface velocity and dhdt data along flowlines for Little Kluane Glacier.
+  - Plots and data generated from velocity_analysis.py. About surface velocity and dhdt data along flowlines for Little Kluane Glacier.
   
 - report
-  .tex and .pdf files for the main report. Lots of information about the process in there.
+  - .tex and .pdf files for the main report. Lots of information about the process in there.
  
 - old 
-  Code and plots not referenced in the report. Lots of stuff in there were first investigated but deemed not important for the study. See the information (README.txt) in there.
+  - Code and plots not referenced in the report. Lots of stuff in there were first investigated but deemed not important for the study. See the information (README.txt) in there.
